@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="ro" class="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#183241"/>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+    <link rel="apple-touch-icon" href="favicon.svg"/>
+
+    <!-- Primary SEO -->
+    <meta id="meta-description" name="description"
+          content="Un devoțional zilnic pentru Săptămâna Patimilor — 8 zile de lectură biblică, meditație și rugăciune. Organizat de Biserica Unu Unu."/>
+
+    <!-- Open Graph / WhatsApp / Facebook -->
+    <!-- NOTE: replace og:url with your deployed absolute URL before publishing -->
+    <meta id="og-url"         property="og:url"         content="https://unu-unu.ro/saptamana-patimilor/"/>
+    <meta id="og-type"        property="og:type"        content="website"/>
+    <meta id="og-title"       property="og:title"       content="Săptămâna Patimilor 2026"/>
+    <meta id="og-description" property="og:description" content="Un devoțional zilnic pentru Săptămâna Patimilor — 8 zile de lectură biblică, meditație și rugăciune. Organizat de Biserica Unu Unu."/>
+    <!-- NOTE: og:image must be an absolute URL to a PNG (min 1200×630).
+         Convert og-image.svg → og-image.png and host it, then update this href. -->
+    <meta id="og-image"       property="og:image"       content="https://unu-unu.ro/saptamana-patimilor/og-image.png"/>
+    <meta                     property="og:image:width"  content="1200"/>
+    <meta                     property="og:image:height" content="630"/>
+    <meta                     property="og:locale"       content="ro_RO"/>
+    <meta                     property="og:site_name"    content="Biserica Unu Unu"/>
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card"        content="summary_large_image"/>
+    <meta id="twitter-title"       name="twitter:title"       content="Săptămâna Patimilor 2026"/>
+    <meta id="twitter-description" name="twitter:description" content="Un devoțional zilnic pentru Săptămâna Patimilor — 8 zile de lectură biblică, meditație și rugăciune."/>
+    <meta name="twitter:image"       content="https://unu-unu.ro/saptamana-patimilor/og-image.png"/>
+
+    <title id="page-title">Săptămâna Patimilor 2026 · Biserica Unu Unu</title>
+
+    <!-- Tailwind CDN (must load before config script) -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+
+    <!-- Design token config — keep inline: Tailwind CDN reads window.tailwind.config -->
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              surface: "#fbf9f4",
+              "surface-bright": "#fbf9f4",
+              "surface-dim": "#dbdad5",
+              "surface-container-lowest": "#ffffff",
+              "surface-container-low": "#f5f3ee",
+              "surface-container": "#f0eee9",
+              "surface-container-high": "#eae8e3",
+              "surface-container-highest": "#e4e2dd",
+              "surface-variant": "#e4e2dd",
+              "surface-tint": "#486172",
+              background: "#fbf9f4",
+              "on-background": "#1b1c19",
+              "on-surface": "#1b1c19",
+              "on-surface-variant": "#42474c",
+              "inverse-surface": "#30312e",
+              "inverse-on-surface": "#f2f1ec",
+              primary: "#183241",
+              "primary-container": "#2f4858",
+              "primary-fixed": "#cce6fa",
+              "primary-fixed-dim": "#b0cadd",
+              "on-primary": "#ffffff",
+              "on-primary-container": "#9cb6c9",
+              "on-primary-fixed": "#011e2d",
+              "on-primary-fixed-variant": "#314a5a",
+              "inverse-primary": "#b0cadd",
+              secondary: "#6c5e06",
+              "secondary-container": "#f7e382",
+              "secondary-fixed": "#f7e382",
+              "secondary-fixed-dim": "#dac769",
+              "on-secondary": "#ffffff",
+              "on-secondary-container": "#73640e",
+              "on-secondary-fixed": "#211b00",
+              "on-secondary-fixed-variant": "#524700",
+              tertiary: "#36294a",
+              "tertiary-container": "#4d3f62",
+              "tertiary-fixed": "#ecdcff",
+              "tertiary-fixed-dim": "#d1bfe9",
+              "on-tertiary": "#ffffff",
+              "on-tertiary-container": "#beacd5",
+              "on-tertiary-fixed": "#221535",
+              "on-tertiary-fixed-variant": "#4e4063",
+              outline: "#73787c",
+              "outline-variant": "#c2c7cc",
+              error: "#ba1a1a",
+              "error-container": "#ffdad6",
+              "on-error": "#ffffff",
+              "on-error-container": "#93000a",
+            },
+            fontFamily: {
+              headline: ["Newsreader", "serif"],
+              body: ["Manrope", "sans-serif"],
+              label: ["Manrope", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              sm: "0.125rem",
+              md: "0.375rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- App styles -->
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body class="bg-surface text-on-surface antialiased">
+    <!-- ═══════════════════════════════════════════════
+     APP SHELL
+═══════════════════════════════════════════════ -->
+    <div id="app">
+      <!-- Glass Header -->
+      <header
+        id="app-header"
+        class="glass-header fixed top-0 left-0 right-0 z-40 flex items-center justify-between px-5 h-14"
+        style="
+          padding-top: max(env(safe-area-inset-top), 0px);
+          height: calc(3.5rem + env(safe-area-inset-top, 0px));
+        "
+      >
+        <button
+          onclick="toggleDrawer()"
+          class="w-10 h-10 flex items-center justify-center rounded-full text-primary active:bg-surface-container transition-colors"
+          aria-label="Meniu"
+        >
+          <span class="material-symbols-outlined icon-md">menu</span>
+        </button>
+
+        <div
+          id="header-title"
+          class="font-headline italic text-lg text-primary tracking-tight"
+        >
+          Săptămâna Patimilor
+        </div>
+
+        <button
+          id="header-share-btn"
+          onclick="shareCurrentDay()"
+          class="w-10 h-10 items-center justify-center rounded-full text-primary active:bg-surface-container transition-colors hidden"
+          aria-label="Distribuie"
+        >
+          <span class="material-symbols-outlined icon-md">share</span>
+        </button>
+        <div id="header-spacer" class="w-10"></div>
+      </header>
+
+      <!-- Progress bar strip -->
+      <div
+        class="fixed left-0 right-0 z-40 h-0.5 bg-outline-variant/20"
+        style="top: calc(3.5rem + env(safe-area-inset-top, 0px))"
+      >
+        <div
+          id="progress-bar-fill"
+          class="progress-fill h-full bg-secondary"
+          style="width: 0%"
+        ></div>
+      </div>
+
+      <!-- Drawer backdrop -->
+      <div
+        id="drawer-overlay"
+        class="fixed inset-0 z-50 bg-on-surface/30 opacity-0 pointer-events-none"
+        onclick="closeDrawer()"
+      ></div>
+
+      <!-- Navigation Drawer -->
+      <div
+        id="drawer"
+        class="fixed inset-y-0 left-0 z-50 w-72 bg-surface flex flex-col shadow-2xl shadow-on-surface/10 transform -translate-x-full no-scrollbar overflow-y-auto"
+        style="padding-bottom: env(safe-area-inset-bottom, 1rem)"
+      >
+        <div class="px-6 pt-12 pb-6 border-b border-outline-variant/10">
+          <p
+            class="font-body text-xs uppercase tracking-widest text-outline mb-1"
+          >
+            Devoțional zilnic
+          </p>
+          <h2 class="font-headline text-2xl text-primary italic">
+            Săptămâna Patimilor
+          </h2>
+          <p
+            id="drawer-dates"
+            class="font-body text-xs text-on-surface-variant mt-1"
+          >
+            5 Aprilie – 12 Aprilie 2026
+          </p>
+        </div>
+
+        <nav
+          id="drawer-nav"
+          class="flex-1 flex flex-col px-4 py-6 gap-1"
+          aria-label="Zilele săptămânii"
+        ></nav>
+
+        <div class="px-6 py-4 border-t border-outline-variant/10">
+          <div
+            id="drawer-progress-text"
+            class="font-body text-xs text-outline"
+          ></div>
+        </div>
+      </div>
+
+      <!-- Main content — filled by app.js -->
+      <main
+        id="main-content"
+        class="min-h-screen"
+        style="padding-top: calc(4rem + env(safe-area-inset-top, 0px))"
+      ></main>
+    </div>
+    <!-- /#app -->
+
+    <!-- App logic -->
+    <script src="app.js"></script>
+  </body>
+</html>

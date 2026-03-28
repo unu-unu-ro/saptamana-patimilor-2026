@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "title": "Săptămâna Patimilor 2026",
+    "subtitle": "Un devocional zilnic pentru Săptămâna Patimilor",
+    "year": "2026",
+    "dates": "5 Aprilie – 12 Aprilie",
+    "language": "ro",
+    "readingSource": {
+      "title": "Patimile lui Hristos",
+      "author": "McKinley",
+      "url": "https://www.magnagratia.org/carti/166-patimile-lui-hristos-mckinley/"
+    }
+  },
+  "days": [
+    {
+      "id": 1,
+      "slug": "duminica-floriilor",
+      "name": "Duminica Floriilor",
+      "shortName": "Duminica Floriilor",
+      "subtitle": "Intrarea triumfală",
+      "date": "5 Aprilie 2026",
+      "icon": "auto_awesome",
+      "cardStyle": "default",
+      "keyVerse": {
+        "text": "Osana! Binecuvântat este Cel ce vine în Numele Domnului!",
+        "reference": "Marcu 11:9"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Ieremia 25:15-29",
+          "content": "Căci așa mi-a vorbit Domnul, Dumnezeul lui Israel: «Ia din mâna Mea paharul cu vinul acestei urgii și fă să bea din el toate neamurile la care te voi trimite. Ele vor bea, se vor clătina și își vor ieși din minți, din pricina sabiei pe care o voi trimite printre ele.»\n\nAm luat paharul din mâna Domnului și am dat să bea tuturor neamurilor la care mă trimisese Domnul: Ierusalimul și cetățile lui Iuda, și împărații și căpeteniile lui [...] și toți împărații de la răsărit și toți împărații din Apus [...] și toți împărații pământului, câți sunt pe fața lui. Și li se va spune: «Așa vorbește Domnul oștirilor, Dumnezeul lui Israel: Beți, îmbătați-vă, vărsați și cadeți și nu vă mai ridicați, din pricina sabiei pe care o trimit Eu printre voi!»"
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 19:28-44",
+          "content": "După ce a spus aceste lucruri, Isus a mers înainte, suind la Ierusalim.\n\nCând S-a apropiat de Betfaghe și Betania, spre muntele numit al Măslinilor, Isus a trimis doi din ucenicii Săi și le-a zis: «Duceți-vă în satul dinaintea voastră; când veți intra în el, veți găsi un mânz legat, pe care n-a încălecat nimeni niciodată; dezlegați-l și aduceți-l. Dacă vă va întreba cineva: De ce-l dezlegați? să-i spuneți: Domnul are trebuință de el.»\n\nEi s-au dus și au găsit totul cum le spusese El. [...] Au adus mânzul la Isus; și-au aruncat hainele pe el și au așezat pe Isus deasupra. Pe când mergea El, oamenii își așterneau hainele pe drum. Când S-a apropiat de coborâșul Muntelui Măslinilor, toată mulțimea ucenicilor a început să se bucure și să laude pe Dumnezeu cu glas tare pentru toate minunile pe care le văzuseră. Ei ziceau: «Binecuvântat este Împăratul care vine în Numele Domnului! Pace în cer și slavă în locurile preaînalte!»\n\nIsus S-a apropiat de cetate și, când a văzut-o, a plâns pentru ea și a zis: «Dacă ai fi cunoscut și tu, măcar în această zi, lucrurile care puteau să-ți dea pacea! Dar acum ele sunt ascunse de ochii tăi.»"
+        },
+        {
+          "type": "callToAction",
+          "title": "Aplică astăzi",
+          "content": "Isus a plâns pentru Ierusalim — un oraș care nu L-a recunoscut. Există cineva în viața ta pentru care poți plânge și te poți ruga astăzi?"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "lunea-mare",
+      "name": "Luni",
+      "shortName": "Luni",
+      "subtitle": "Curățirea Templului",
+      "date": "6 Aprilie 2026",
+      "icon": "flare",
+      "cardStyle": "offset",
+      "keyVerse": {
+        "text": "Casa Mea se va numi casă de rugăciune, dar voi ați făcut din ea o peșteră de tâlhari.",
+        "reference": "Matei 21:13"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Isaia 52:13 – 53:9",
+          "content": "Iată că Robul Meu va propăși, va fi înălțat, slăvit și preamărit. [...] Nu avea nici frumusețe, nici strălucire ca să ne atragă privirile și nici un fel de înfățișare care să ne placă. Era disprețuit și părăsit de oameni, om al durerii și obișnuit cu suferința; era disprețuit ca unul înaintea căruia îți ascunzi fața; și noi nu L-am băgat în seamă.\n\nTotuși El suferințele noastre le-a purtat, și durerile noastre le-a luat asupra Lui; și noi am crezut că este pedepsit, lovit de Dumnezeu și smerit. Dar El era străpuns pentru păcatele noastre, zdrobit pentru fărădelegile noastre. Pedeapsa care ne dă pacea a căzut asupra Lui, și prin rănile Lui suntem vindecați.\n\nNoi rătăceam cu toții ca niște oi, fiecare își vedea de calea lui; dar Domnul a făcut să cadă asupra Lui nelegiuirea noastră a tuturor. A fost chinuit, dar S-a supus și n-a deschis gura; ca un miel pe care-l duci la măcelărie și ca o oaie mută înaintea celor ce o tund, așa nu și-a deschis gura."
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 19:45-48",
+          "content": "Isus a intrat în Templu și a început să scoată afară pe cei ce vindeau și cumpărau în el, zicându-le: «Este scris: Casa Mea va fi o casă de rugăciune. Dar voi ați făcut din ea o peșteră de tâlhari.»\n\nZilnic învăța în Templu. Preoții cei mai de seamă, cărturarii și fruntașii norodului căutau să-L omoare, dar nu știau cum să facă, fiindcă tot norodul era atârnat de buzele Lui și-L asculta."
+        },
+        {
+          "type": "callToAction",
+          "title": "Aplică astăzi",
+          "content": "Isaia 52–53 a fost scris cu 700 de ani înainte de cruce. Citește din nou versetul 5. Ce înseamnă personal pentru tine că «prin rănile Lui suntem vindecați»?"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "martea-mare",
+      "name": "Marți",
+      "shortName": "Marți",
+      "subtitle": "Marea controversă",
+      "date": "7 Aprilie 2026",
+      "icon": "wb_twilight",
+      "cardStyle": "default",
+      "keyVerse": {
+        "text": "«Să iubești pe Domnul Dumnezeul tău cu toată inima ta» — aceasta este cea mai mare și cea dintâi poruncă.",
+        "reference": "Matei 22:37–38"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Daniel 7:1-28",
+          "content": "În anul întâi al lui Belșațar, împăratul Babilonului, Daniel a avut un vis și i s-au arătat vedenii pe patul lui. A scris visul și a povestit pe scurt lucrurile. [...]\n\nMă uitam în vedeniile de noapte și iată că pe norii cerurilor a venit Unul ca un fiu al omului; a înaintat spre Cel îmbătrânit de zile și a fost adus înaintea Lui. I S-a dat stăpânire, slavă și putere împărătească, pentru ca să-I slujească toate popoarele, neamurile și oamenii de toate limbile. Stăpânirea Lui este o stăpânire veșnică și nu va trece nicidecum, și împărăția Lui nu va fi nimicită niciodată.\n\nÎmpărăția și stăpânirea și puterea împărățiilor de sub tot cerul vor fi date poporului sfinților Celui Preaînalt. Împărăția Lui este o împărăție veșnică și toate puterile Îi vor sluji și I se vor supune."
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 20:1 – 21:4",
+          "content": "Într-una din acele zile, pe când învăța Isus norodul în Templu și propovăduia Evanghelia, au venit deodată la El preoții cei mai de seamă și cărturarii cu bătrânii și I-au zis: «Spune-ne cu ce putere faci Tu aceste lucruri? Sau cine Ți-a dat puterea aceasta?» Isus le-a răspuns: «Vă voi pune și Eu o întrebare. Spuneți-Mi: Botezul lui Ioan era din cer sau de la oameni?»\n\n[...] Isus S-a uitat la cei ce aruncau bani în vistierie și a văzut pe mulți bogați care aruncau sume mari. A văzut și o văduvă săracă, care arunca acolo doi bănuți. Și a zis: «Adevărat vă spun că această văduvă săracă a aruncat mai mult decât toți ceilalți. Căci toți aceștia au aruncat la darurile lui Dumnezeu din prisosul lor; ea însă a aruncat din sărăcia ei tot ce avea ca să trăiască.»"
+        },
+        {
+          "type": "callToAction",
+          "title": "Aplică astăzi",
+          "content": "Daniel L-a văzut pe «Fiul Omului» primind o împărăție veșnică — cu 500 de ani înainte. Isus a folosit exact acest titlu pentru Sine. Cum îți schimbă perspectiva știind că El este acel Rege?"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "miercurea-mare",
+      "name": "Miercuri",
+      "shortName": "Miercuri",
+      "subtitle": "Ziua tăcerii și a trădării",
+      "date": "8 Aprilie 2026",
+      "icon": "nightlight",
+      "cardStyle": "offset",
+      "keyVerse": {
+        "text": "Femeia aceasta a turnat acest mir pe trupul Meu: ea a făcut lucrul acesta pentru îngroparea Mea.",
+        "reference": "Matei 26:12"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Osea 10:1-15",
+          "content": "Israel este o viță de vie stufoasă, care dă mult rod pentru sine însuși. Cu cât i s-a înmulțit rodul, cu atât și-a înmulțit altarele; cu cât i s-a îmbunătățit țara, cu atât și-a înfrumusețat stâlpii idolilor. Inima lor este împărțită: acum vor fi pedepsiți. El le va surpa altarele și le va dărâma stâlpii idolilor.\n\nSămânați pentru voi după dreptate, secerați după îndurare, desțeleniți-vă un ogor nou! Este vremea să căutați pe Domnul, până va veni El să vă ploaie mântuirea."
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 21:5-38",
+          "content": "Fiindcă unii vorbeau despre Templu că este împodobit cu pietre frumoase și cu daruri de ale credincioșilor, Isus a zis: «Vor veni zile când nu va rămâne piatră pe piatră din toate acestea, care să nu fie dărâmată.»\n\n«Luați seama să nu fiți amăgiți. Căci vor veni mulți în Numele Meu și vor zice: «Eu sunt Hristosul!» și «Vremea s-a apropiat.» Nu mergeți după ei. Când veți auzi de războaie și de răscoale, să nu vă îngrijorați; căci întâi trebuie să se întâmple aceste lucruri. Dar sfârșitul nu va veni îndată.»\n\n«Veghiați dar în tot timpul și rugați-vă, ca să aveți putere să scăpați de toate lucrurile acestea care se vor întâmpla și să stați în picioare înaintea Fiului omului.»"
+        },
+        {
+          "type": "callToAction",
+          "title": "Aplică astăzi",
+          "content": "«Desțeleniți-vă un ogor nou! Este vremea să căutați pe Domnul.» Ce teren al inimii tale are nevoie să fie desțelenit astăzi?"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "joia-mare",
+      "name": "Joi",
+      "shortName": "Joi",
+      "subtitle": "Cina cea de Taină",
+      "date": "9 Aprilie 2026",
+      "icon": "church",
+      "cardStyle": "wide",
+      "keyVerse": {
+        "text": "Vă dau o poruncă nouă: Să vă iubiți unii pe alții; cum v-am iubit Eu, să vă iubiți și voi unii pe alții.",
+        "reference": "Ioan 13:34"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Psalmul 22:1-21",
+          "content": "Dumnezeul meu, Dumnezeul meu, pentru ce m-ai părăsit? Departe de mântuirea mea sunt cuvintele strigătelor mele de jale!\n\nDumnezeul meu, strig ziua și nu răspunzi, noaptea și nu găsesc odihnă. [...]\n\nDar eu sunt un vierme, nu un om, batjocura oamenilor și disprețuit de popor. Toți cei ce mă văd își bat joc de mine, fac strâmbături din buze și dau din cap zicând: «S-a încrezut în Domnul — să-l mântuiască! Să-l izbăvească, de vreme ce-l iubea!»\n\nCăci m-au înconjurat câini mulți, o ceată de răufăcători dă târcoale împrejurul meu, mi-au străpuns mâinile și picioarele. Pot să-mi număr toate oasele. Ei mă privesc și se uită la mine; își împart hainele mele și trag la sorți pentru cămașa mea.\n\nDar Tu, Doamne, nu fi departe! Tu, puterea mea, grăbește-Te să mă ajuți!"
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 22:7-54",
+          "content": "A venit ziua Azimelor, în care trebuia să se junghie Paștele. Isus a trimis pe Petru și pe Ioan, zicând: «Duceți-vă să ne pregătiți Paștele ca să-l mâncăm.» [...]\n\nCând a sosit ceasul, Isus a șezut la masă și apostolii împreună cu El. El le-a zis: «Am dorit mult să mănânc Paștele acesta cu voi, înainte de patima Mea; căci vă spun că nu-l voi mai mânca, până nu se va împlini în Împărăția lui Dumnezeu.»\n\nA luat pâine; și după ce a mulțumit lui Dumnezeu, a frânt-o și le-a dat-o, zicând: «Acesta este trupul Meu, care se dă pentru voi; să faceți lucrul acesta spre pomenirea Mea.» Tot astfel, după ce au mâncat, a luat paharul și li l-a dat, zicând: «Acest pahar este legământul cel nou, făcut în sângele Meu, care se varsă pentru voi.»\n\nIsus a ieșit și S-a dus, după obiceiul Său, în Muntele Măslinilor. Ucenicii Lui au mers după El. Ajuns la locul acela, El le-a zis: «Rugați-vă, ca să nu cădeți în ispită.» [...] Și fiind în luptă grea, se ruga și mai stăruitor; și sudoarea Lui se făcuse ca picături mari de sânge, care cădeau pe pământ."
+        },
+        {
+          "type": "callToAction",
+          "title": "Aplică astăzi",
+          "content": "Psalmul 22 a fost rostit de Isus pe cruce. Citește-l din nou știind că fiecare vers era trăit de El. Data viitoare când participi la Cina Domnului, adu-ți aminte de această conexiune."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "vinerea-mare",
+      "name": "Vineri",
+      "shortName": "Vineri",
+      "subtitle": "Golgotha",
+      "date": "10 Aprilie 2026",
+      "icon": "health_cross",
+      "cardStyle": "goodFriday",
+      "keyVerse": {
+        "text": "Dar El era străpuns pentru păcatele noastre, zdrobit pentru fărădelegile noastre. Pedeapsa care ne dă pacea a căzut asupra Lui.",
+        "reference": "Isaia 53:5"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Ioel 2:1-11",
+          "content": "Sunați cu trâmbița în Sion și dați alarma în muntele Meu cel sfânt! Să tremure toți locuitorii țării, căci vine ziua Domnului, căci este aproape!\n\nEste o zi de întuneric și de negură, o zi de nori și de beznă, ca zorile dimineții răspândindu-se pe munți. Vine un popor mare și puternic, cum n-a mai fost niciodată și cum nu va mai fi în veacurile viitoare.\n\nDinaintea lui arde un foc și după el se înalță o flacără; înaintea lui, pământul era ca grădina Edenului, iar după el, este un pustiu fără viață. [...] Domnul Își face auzit glasul înaintea oștirii Sale, căci tabăra Lui este foarte mare și cel ce împlinește Cuvântul Lui este puternic. Căci ziua Domnului este mare și foarte înfricoșată — cine o poate suferi?"
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 22:55 – 23:55",
+          "content": "Petru ședea în mijlocul lor la foc. O slujnică l-a văzut șezând la foc, l-a privit cu ochii și a zis: «Și acesta era cu El!» Dar el s-a lepădat de Isus și a zis: «Femeie, nu-L cunosc.» [...]\n\nPilat le-a zis: «Ce să fac deci cu Isus, care se numește Hristos?» Toți au răspuns: «Să fie răstignit!» [...]\n\nCând au ajuns la locul numit Căpățâna, L-au răstignit acolo pe El și pe tâlhari, unul la dreapta și altul la stânga Lui. Isus zicea: «Tată, iartă-i, căci nu știu ce fac.» [...]\n\nEra cam pe la ceasul al șaselea și s-a făcut întuneric peste toată țara până la ceasul al nouălea, pentru că soarele se întunecă. Perdeaua Templului s-a rupt prin mijloc. Isus a strigat cu glas tare: «Tată, în mâinile Tale Îmi încredințez duhul!» Și când a zis aceste vorbe, Și-a dat duhul."
+        },
+        {
+          "type": "callToAction",
+          "title": "Aplică astăzi",
+          "content": "Păstrează un moment de tăcere la ora 15:00 — ora morții lui Hristos. «Tată, iartă-i, căci nu știu ce fac.» Este și rugăciunea Lui pentru tine."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "sambata-mare",
+      "name": "Sâmbătă",
+      "shortName": "Sâmbătă",
+      "subtitle": "Marele Sabat al așteptării",
+      "date": "11 Aprilie 2026",
+      "icon": "bedtime",
+      "cardStyle": "offset",
+      "keyVerse": {
+        "text": "Am o nădejde în Dumnezeu... că va fi o înviere a morților.",
+        "reference": "Faptele apostolilor 24:15"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Levitic 16",
+          "content": "Domnul a vorbit lui Moise după moartea celor doi fii ai lui Aaron, care muriseră când se apropiaseră de Domnul. Domnul a zis lui Moise: «Vorbește fratelui tău Aaron și spune-i să nu intre în orice vreme în locul sfânt, dinăuntrul perdelei, înaintea capacului ispășirii care este pe chivot, ca să nu moară; căci Eu Mă arăt în nor deasupra capacului ispășirii.\n\nAaron să aducă din turma lui un vițel pentru jertfa de ispășire și un berbec pentru arderea de tot.» [...]\n\nAaron să-și pună ambele mâini pe capul țapului celui viu, să mărturisească peste el toate fărădelegile copiilor lui Israel și toate călcările lor de lege, toate păcatele lor, și să le pună pe capul țapului; apoi să-l izgonească în pustiu. [...]\n\nAcesta va fi pentru voi un statut veșnic: în luna a șaptea, în ziua a zecea a lunii, să vă smeriți sufletele și să nu faceți niciun fel de lucru."
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 23:56",
+          "content": "S-au întors, au pregătit miresme și miruri, și în ziua Sabatului s-au odihnit după Lege."
+        },
+        {
+          "type": "callToAction",
+          "title": "Aplică astăzi",
+          "content": "Levitic 16 descrie în detaliu ce a realizat Isus prin moartea Sa — ispășirea completă. Sâmbăta aceasta, odihnește-te în acel «S-a sfârșit». Nu mai este nimic de adăugat."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "duminica-invierii",
+      "name": "Duminica Învierii",
+      "shortName": "Duminica Învierii",
+      "subtitle": "El a înviat!",
+      "date": "12 Aprilie 2026",
+      "icon": "sunny",
+      "cardStyle": "easter",
+      "keyVerse": {
+        "text": "Nu este aici; a înviat, după cum zisese. Veniți de vedeți locul unde zăcea Domnul.",
+        "reference": "Matei 28:6"
+      },
+      "sections": [
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Vechiul Testament",
+          "reference": "Isaia 53:10-12 · Psalmul 22:22-31",
+          "content": "Dar Domnul a găsit cu cale să-L zdrobească și L-a adus la suferință; pentru că Și-a dat viața ca jertfă pentru păcat, va vedea o sămânță de urmași, va trăi multe zile și lucrarea Domnului va propăși în mâinile Lui. Va vedea rodul muncii sufletului Lui și Se va înviora. Prin cunoștința Lui, Robul Meu cel neprihănit va pune pe mulți oameni într-o stare neprihănită și va lua asupra Lui povara nelegiuirilor lor.\n\nDe aceea Îi voi da partea Lui la un loc cu cei mari și va împărți prada cu cei puternici, pentru că S-a dat pe Sine însuși la moarte și a fost numărat printre cei fărădelege, pentru că a purtat păcatele multora și S-a rugat pentru cei vinovați.\n\n— — —\n\nVoi vesti Numele Tău fraților mei, Te voi lăuda în mijlocul adunării! [...] Căci El n-a disprețuit, nici n-a respins suferința celui nenorocit și nu Și-a ascuns fața de el; ci i-a ascultat strigătele când a strigat către El.\n\nSemințiile de neamuri se vor întoarce la Domnul și înaintea Lui se vor închina toate familiile neamurilor. Căci Împărăția este a Domnului și El stăpânește peste neamuri."
+        },
+        {
+          "type": "scripture",
+          "title": "Citire Biblică — Noul Testament",
+          "reference": "Luca 24:1-49",
+          "content": "În prima zi a săptămânii, femeile au venit la mormânt dis-de-dimineață, aducând miresmele pe care le pregătiseră. Au găsit piatra răsturnată de la mormânt; și când au intrat, n-au găsit trupul Domnului Isus.\n\nPe când stăteau ele în cumpănă din pricina aceasta, iată că li s-au arătat doi bărbați în haine strălucitoare. Femeile au fost cuprinse de frică și și-au plecat fețele la pământ. Dar bărbații aceia le-au zis: «De ce căutați printre cei morți pe Cel viu? Nu este aici, ci a înviat.\n\n[...] Și, începând de la Moise și de la toți prorocii, El le-a tâlcuit în toate Scripturile cele scrise despre El. [...] Le-a zis: «Astfel este scris și astfel trebuia să pătimească Hristosul și să învieze a treia zi dintre cei morți. Și să se propovăduiască în Numele Lui pocăința și iertarea păcatelor la toate neamurile, începând din Ierusalim.»"
+        },
+        {
+          "type": "callToAction",
+          "title": "Celebrează astăzi",
+          "content": "Spune cuiva astăzi: «Hristos a Înviat!» Isaia 53 s-a împlinit. Psalmul 22 s-a împlinit. Luca 24 este răspunsul la toate. Vestea bună merită răspândită."
+        }
+      ]
+    }
+  ]
+}
