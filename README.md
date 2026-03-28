@@ -1,163 +1,186 @@
 # Săptămâna Patimilor 2026
 
-> A Romanian-language daily devotional micro-site for Holy Week — built as a zero-dependency SPA with a premium editorial aesthetic.
+> Devoțional zilnic pentru cele opt zile ale Săptămânii Patimilor — de la Duminica Floriilor până la Duminica Învierii. Organizat de **Biserica Unu Unu**.
 
-**Live dates:** 5 Aprilie – 12 Aprilie 2026
-**Language:** Romanian (`ro`)
-**Target:** 99% mobile users
-
----
-
-## Features
-
-| Feature | Details |
-|---|---|
-| **Daily devotional content** | 8 days, each with intro · scripture · reflection · prayer · call to action |
-| **Progress tracking** | Days auto-marked as read; persisted in `localStorage` |
-| **Deep links** | Each day has a shareable URL: `index.html#/zi/1` … `#/zi/8` |
-| **Native sharing** | Web Share API with clipboard fallback |
-| **"Today" detection** | Current day highlighted automatically during Holy Week 2026 |
-| **Offline-ready** | Static files; no build step; deployable to any CDN or GitHub Pages |
+**Perioada:** 5 Aprilie – 12 Aprilie 2026
+**Limbă:** Română
 
 ---
 
-## File structure
+## Funcționalități
+
+| Funcționalitate          | Detalii                                                          |
+| ------------------------ | ---------------------------------------------------------------- |
+| **Conținut zilnic**      | 8 zile, fiecare cu lectură VT, lectură NT și aplicație practică  |
+| **Salvare progres**      | Zilele se marchează citite automat; salvat în `localStorage`     |
+| **Link-uri zilnice**     | Fiecare zi are un URL propriu: `index.html#/zi/1` … `#/zi/8`     |
+| **Distribuire nativă**   | Web Share API cu fallback la clipboard                           |
+| **Detectare zi curentă** | Ziua din calendar este evidențiată automat în perioada Patimilor |
+| **Fără build**           | Fișiere statice; funcționează pe orice CDN sau GitHub Pages      |
+
+---
+
+## Structura fișierelor
 
 ```
 sp-2026/
-├── index.html   ← App shell & Tailwind design-token config
-├── app.css      ← Custom styles (glassmorphism, animations, chips…)
-├── app.js       ← SPA logic: router, state, rendering, share API
-├── data.json    ← All devotional content (edit this to update copy)
+├── index.html     ← Shell HTML + configurare token-uri design Tailwind
+├── app.css        ← Stiluri custom (glassmorphism, animații, chip-uri…)
+├── app.js         ← Logica SPA: router, state, randare, share API, meta tags
+├── data.json      ← Tot conținutul devoțional (editează aici pentru a actualiza textele)
+├── favicon.svg    ← Favicon SVG — cruce aurie pe fond #183241
+├── og-image.svg   ← Imagine pentru previzualizare socială (1200×630)
 └── README.md
 ```
 
 ---
 
-## Design system
+## Sistem de design
 
-Follows the **Editorial Reverence** design system:
+Urmează sistemul **Editorial Reverență**:
 
-- **Fonts** — Newsreader (display/scripture) + Manrope (body/UI)
-- **Colors** — Material Design 3 palette anchored in Slate Blue `#183241`
-- **No-line rule** — section boundaries via background-color shifts only
-- **Glassmorphism** — header at 85% opacity + `backdrop-blur: 20px`
-- **Good Friday** — special dark gradient (`#183241 → #36294a`)
-- **Easter Sunday** — warm gold `secondary-container` (#f7e382)
-- **Icons** — Material Symbols Outlined, 1pt weight (never filled)
+- **Fonturi** — Newsreader (display/scriptură) + Manrope (corp/UI)
+- **Culori** — Paletă Material Design 3 ancorată în Slate Blue `#183241`
+- **Fără linii** — separarea secțiunilor se face exclusiv prin schimbări de culoare de fundal
+- **Glassmorphism** — header la 85% opacitate + `backdrop-blur: 20px`
+- **Vinerea Mare** — gradient întunecat special (`#183241 → #36294a`)
+- **Duminica Învierii** — fond auriu cald `secondary-container` (#f7e382)
+- **Iconițe** — Material Symbols Outlined, grosime 1pt (niciodată pline)
 
 ---
 
-## Content editing
+## Editarea conținutului
 
-All copy lives in **`data.json`**. Each day follows this schema:
+Tot textul devoțional se află în **`data.json`**. Schema fiecărei zile:
 
 ```jsonc
 {
-  "id": 1,                       // 1–8, used in URL (#/zi/1)
-  "slug": "duminica-floriilor",  // URL-friendly identifier
-  "name": "Duminica Floriilor",  // Full display name
-  "shortName": "Floriilor",      // Drawer & header label
-  "subtitle": "Intrarea triumfală",
-  "date": "29 Martie 2026",
-  "icon": "auto_awesome",        // Material Symbol name
-  "cardStyle": "default",        // default | offset | wide | goodFriday | easter
+  "id": 1, // 1–8, folosit în URL (#/zi/1)
+  "slug": "duminica-floriilor", // identificator pentru URL
+  "name": "Duminica Floriilor", // nume afișat complet
+  "shortName": "Duminica Floriilor", // etichetă în sertar și header
+  "subtitle": "Intrarea triumfală", // chip afișat pe card și pagina zilei
+  "date": "5 Aprilie 2026",
+  "icon": "auto_awesome", // nume Material Symbol
+  "cardStyle": "default", // default | offset | wide | goodFriday | easter
   "keyVerse": {
     "text": "Osana! …",
-    "reference": "Marcu 11:9"
+    "reference": "Marcu 11:9",
   },
   "sections": [
-    { "type": "intro",       "content": "…" },
-    { "type": "scripture",   "title": "…", "reference": "…", "content": "…" },
-    { "type": "reflection",  "title": "…", "content": "Paragraph 1\n\nParagraph 2" },
-    { "type": "prayer",      "title": "…", "content": "…" },
-    { "type": "callToAction","title": "…", "content": "…" }
-  ]
+    {
+      "type": "scripture",
+      "title": "Citire Biblică — Vechiul Testament",
+      "reference": "…",
+      "content": "…",
+    },
+    {
+      "type": "scripture",
+      "title": "Citire Biblică — Noul Testament",
+      "reference": "…",
+      "content": "…",
+    },
+    { "type": "callToAction", "title": "Aplică astăzi", "content": "…" },
+  ],
 }
 ```
 
-### Section types
+### Tipuri de secțiuni
 
-| Type | Background | Font |
-|---|---|---|
-| `intro` | `surface` | Manrope, muted |
-| `scripture` | `surface-container-low` | Newsreader italic, gold left border |
-| `reflection` | `surface` | Manrope, paragraphs split on `\n\n` |
-| `prayer` | `primary` tinted | Newsreader italic |
-| `callToAction` | `secondary-container` (gold) | Manrope |
+| Tip            | Fundal                        | Font                                    |
+| -------------- | ----------------------------- | --------------------------------------- |
+| `scripture`    | `surface-container-low`       | Newsreader italic, bordură aurie stânga |
+| `callToAction` | `secondary-container` (auriu) | Manrope                                 |
 
-### Card styles
+### Stiluri de card
 
-| Value | Used for | Background |
-|---|---|---|
-| `default` | Standard days (odd) | `surface-container-lowest` (white) |
-| `offset` | Standard days (even) | `surface-container-low` (light grey) |
-| `wide` | Maundy Thursday | same as `default` |
-| `goodFriday` | Day 6 only | `#183241 → #36294a` gradient |
-| `easter` | Day 8 only | `secondary-container` (#f7e382) |
+| Valoare      | Folosit pentru             | Fundal                                |
+| ------------ | -------------------------- | ------------------------------------- |
+| `default`    | Zile standard (impare)     | `surface-container-lowest` (alb)      |
+| `offset`     | Zile standard (pare)       | `surface-container-low` (gri deschis) |
+| `wide`       | Joi                        | același ca `default`                  |
+| `goodFriday` | Ziua 6 — Vineri            | Gradient `#183241 → #36294a`          |
+| `easter`     | Ziua 8 — Duminica Învierii | `secondary-container` (#f7e382)       |
 
 ---
 
-## Running locally
+## Rulare locală
 
-> **Important:** the app fetches `data.json` via `fetch()`, which is blocked by browsers on `file://` URLs (CORS). You need a local web server.
+> **Important:** aplicația încarcă `data.json` prin `fetch()`, care este blocat de browsere pe URL-uri `file://`. Ai nevoie de un server web local.
 
-### Option A — VS Code Live Server
+### Opțiunea A — VS Code Live Server
 
-Install the [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), right-click `index.html` → **Open with Live Server**.
+Instalează extensia [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), click dreapta pe `index.html` → **Open with Live Server**.
 
-### Option B — Python
+### Opțiunea B — Python
 
 ```bash
 cd sp-2026
 python -m http.server 8080
-# open http://localhost:8080
+# deschide http://localhost:8080
 ```
 
-### Option C — Node
+### Opțiunea C — Node
 
 ```bash
 cd sp-2026
 npx serve .
-# open http://localhost:3000
+# deschide http://localhost:3000
 ```
 
 ---
 
-## Deploying to GitHub Pages
+## Publicare pe GitHub Pages
 
-1. Push this folder to a GitHub repository.
-2. Go to **Settings → Pages → Source → Deploy from branch → `main` / `root`**.
-3. Your site will be live at `https://<username>.github.io/<repo>/`.
+1. Încarcă folderul pe un repository GitHub.
+2. Mergi la **Settings → Pages → Source → Deploy from branch → `main` / `root`**.
+3. Site-ul va fi disponibil la `https://<utilizator>.github.io/<repo>/`.
 
-Deep links work automatically because the app uses **hash-based routing** (`#/zi/1`), which requires no server-side configuration.
-
----
-
-## URL scheme
-
-| URL | View |
-|---|---|
-| `index.html#/` | Home — all 8 days |
-| `index.html#/zi/1` | Duminica Floriilor |
-| `index.html#/zi/2` | Luni |
-| `index.html#/zi/3` | Marți |
-| `index.html#/zi/4` | Miercuri |
-| `index.html#/zi/5` | Joi |
-| `index.html#/zi/6` | Vineri |
-| `index.html#/zi/7` | Sâmbătă |
-| `index.html#/zi/8` | Duminica Învierii |
+Link-urile directe funcționează fără configurare suplimentară deoarece aplicația folosește **rutare bazată pe hash** (`#/zi/1`).
 
 ---
 
-## Browser support
+## SEO și previzualizări sociale
 
-All modern mobile browsers (Chrome, Safari, Firefox, Samsung Internet).
-Web Share API requires Chrome 61+ / Safari 14+; clipboard fallback provided for older browsers.
+Fișierele `favicon.svg` și `og-image.svg` sunt incluse.
+
+**Pentru WhatsApp și Facebook:**
+
+1. Convertește `og-image.svg` → `og-image.png` (1200×630) folosind Figma, Inkscape sau un convertor online.
+2. Hostează `og-image.png` la un URL public absolut.
+3. Actualizează `og:image` în `<head>`-ul din `index.html` cu URL-ul respectiv.
+
+> **Notă:** WhatsApp ignoră fragmentele hash din URL (`#/zi/6`), deci previzualizările per-zi nu sunt posibile cu rutare client-side pură. Previzualizarea implicită (pagina principală) va fi afișată indiferent de ziua distribuită.
 
 ---
 
-## License
+## Schema URL-urilor
 
-Content is provided for personal devotional use.
-Code is MIT licensed.
+| URL                  | Pagină                    |
+| -------------------- | ------------------------- |
+| `index.html#/`       | Acasă — toate cele 8 zile |
+| `index.html#/zi/1`   | Duminica Floriilor        |
+| `index.html#/zi/2`   | Luni                      |
+| `index.html#/zi/3`   | Marți                     |
+| `index.html#/zi/4`   | Miercuri                  |
+| `index.html#/zi/5`   | Joi                       |
+| `index.html#/zi/6`   | Vineri                    |
+| `index.html#/zi/7`   | Sâmbătă                   |
+| `index.html#/zi/8`   | Duminica Învierii         |
+| `index.html#/despre` | Despre proiect            |
+
+---
+
+## Compatibilitate browsere
+
+Toate browserele mobile moderne (Chrome, Safari, Firefox, Samsung Internet).
+Web Share API necesită Chrome 61+ / Safari 14+; fallback la clipboard disponibil pentru browsere mai vechi.
+
+---
+
+## Plan de lectură
+
+Recomandările de citire biblică urmează planul din cartea **«Patimile lui Hristos»** de McKinley,
+disponibilă gratuit la [magnagratia.org](https://www.magnagratia.org/carti/166-patimile-lui-hristos-mckinley/).
+
+---
