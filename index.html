@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ro" class="light">
+<html lang="ro">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -152,12 +152,13 @@
           <span class="material-symbols-outlined icon-md">menu</span>
         </button>
 
-        <div
+        <a
+          href="#/"
           id="header-title"
           class="font-headline italic text-lg text-primary tracking-tight"
         >
           Săptămâna Patimilor
-        </div>
+        </a>
 
         <button
           id="header-share-btn"
@@ -201,15 +202,17 @@
           >
             Devoțional zilnic
           </p>
-          <h2 class="font-headline text-2xl text-primary italic">
-            Săptămâna Patimilor
-          </h2>
-          <p
-            id="drawer-dates"
-            class="font-body text-xs text-on-surface-variant mt-1"
-          >
-            5 Aprilie – 12 Aprilie 2026
-          </p>
+          <a href="#/" onclick="closeDrawer()" class="block">
+            <h2 class="font-headline text-2xl text-primary italic">
+              Săptămâna Patimilor
+            </h2>
+            <p
+              id="drawer-dates"
+              class="font-body text-xs text-on-surface-variant mt-1"
+            >
+              5 Aprilie – 12 Aprilie 2026
+            </p>
+          </a>
         </div>
 
         <nav

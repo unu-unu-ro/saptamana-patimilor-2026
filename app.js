@@ -318,7 +318,11 @@ function renderHome() {
   document.getElementById("header-title").textContent = "Săptămâna Patimilor";
   document.getElementById("header-share-btn").classList.add("hidden");
   document.getElementById("header-spacer").classList.remove("hidden");
-  updateMeta({ title: null, description: null, url: location.origin + location.pathname + "#/" });
+  updateMeta({
+    title: null,
+    description: null,
+    url: location.origin + location.pathname + "#/",
+  });
 
   return /* html */ `
     <div class="view-enter">
@@ -369,8 +373,7 @@ function renderHome() {
       </section>
 
       <!-- Footer -->
-      <footer class="px-5 pb-16 text-center">
-        <p class="font-headline italic text-base text-primary/50 mb-4">Solace în Cuvânt.</p>
+      <footer class="px-5 pb-16 text-center">        
         <div class="inline-flex flex-col items-center gap-1">
           <a href="http://unu-unu.ro/" target="_blank" rel="noopener"
              class="font-body text-xs font-semibold uppercase tracking-[0.2em] text-primary/70 active:opacity-60">
@@ -440,9 +443,9 @@ function renderDay(dayId) {
   document.getElementById("header-share-btn").classList.remove("hidden");
   document.getElementById("header-spacer").classList.add("hidden");
   updateMeta({
-    title:       `${day.name} · ${day.date}`,
+    title: `${day.name} · ${day.date}`,
     description: `${day.keyVerse.text} — ${day.keyVerse.reference}. ${day.subtitle}. Devoțional zilnic organizat de Biserica Unu Unu.`,
-    url:         `${location.origin}${location.pathname}#/zi/${day.id}`,
+    url: `${location.origin}${location.pathname}#/zi/${day.id}`,
   });
 
   const backColor = isGF
@@ -567,7 +570,7 @@ function renderReadingPlan(plan) {
 
         <!-- Old Testament -->
         <div class="bg-surface-container-low px-4 py-4">
-          <p class="font-body text-xs uppercase tracking-widest text-outline mb-2">Vechiul Testament</p>
+          <p class="font-body text-xs uppercase tracking-widest text-outline mb-2">Patimile în Vechiul Testament</p>
           <p class="font-headline italic text-sm text-primary leading-snug">${plan.ot}</p>
           ${
             plan.otCrossRef
@@ -605,10 +608,19 @@ function renderSection(sec) {
             <span class="material-symbols-outlined icon-sm text-secondary">menu_book</span>
             <p class="font-body text-xs uppercase tracking-widest text-secondary font-semibold">${sec.title}</p>
           </div>
-          <span class="chip mb-4">${sec.reference}</span>
+          <div class="flex flex-wrap items-center gap-2 mb-4">
+            <span class="chip">${sec.reference}</span>
+            ${sec.ntRef ? `<span class="chip tertiary">v. ${sec.ntRef}</span>` : ""}
+          </div>
           <div class="scripture-block mt-4">
             <p class="font-headline text-base text-on-surface leading-[1.8] whitespace-pre-line">${sec.content}</p>
           </div>
+          ${sec.ntRefText ? `
+          <div class="mt-5 pt-4 border-t border-outline-variant/20">
+            <p class="font-body text-xs uppercase tracking-widest text-secondary font-semibold mb-2">Împlinit în Noul Testament</p>
+            <p class="font-headline italic text-sm text-on-surface-variant leading-relaxed">&ldquo;${sec.ntRefText}&rdquo;</p>
+            <cite class="font-body text-xs text-outline not-italic mt-1 block">— ${sec.ntRef}</cite>
+          </div>` : ""}
         </div>`;
 
     case "reflection":
@@ -705,9 +717,10 @@ function renderAbout() {
   document.getElementById("header-share-btn").classList.add("hidden");
   document.getElementById("header-spacer").classList.remove("hidden");
   updateMeta({
-    title:       "Despre · Săptămâna Patimilor",
-    description: "Devoțional zilnic organizat de Biserica Unu Unu, cu plan de lectură după cartea «Patimile lui Hristos» de McKinley.",
-    url:         `${location.origin}${location.pathname}#/despre`,
+    title: "Despre · Săptămâna Patimilor",
+    description:
+      "Devoțional zilnic organizat de Biserica Unu Unu, cu plan de lectură după cartea «Patimile lui Hristos» de McKinley.",
+    url: `${location.origin}${location.pathname}#/despre`,
   });
 
   return /* html */ `
@@ -802,9 +815,11 @@ function render() {
 //  Per-day previews require server-side rendering or a CDN edge function.
 // ─────────────────────────────────────────────────────────────
 function updateMeta({ title, description, url }) {
-  const siteName  = "Săptămâna Patimilor 2026 · Biserica Unu Unu";
+  const siteName = "Săptămâna Patimilor 2026 · Biserica Unu Unu";
   const fullTitle = title ? `${title} · Săptămâna Patimilor` : siteName;
-  const desc      = description || "Un devoțional zilnic pentru Săptămâna Patimilor — 8 zile de lectură biblică, meditație și rugăciune. Organizat de Biserica Unu Unu.";
+  const desc =
+    description ||
+    "Un devoțional zilnic pentru Săptămâna Patimilor — 8 zile de lectură biblică, meditație și rugăciune. Organizat de Biserica Unu Unu.";
   const canonical = url || location.href;
 
   // <title>
@@ -816,12 +831,12 @@ function updateMeta({ title, description, url }) {
   setMeta("meta-description", "content", desc);
 
   // Open Graph
-  setMeta("og-title",       "content", fullTitle);
+  setMeta("og-title", "content", fullTitle);
   setMeta("og-description", "content", desc);
-  setMeta("og-url",         "content", canonical);
+  setMeta("og-url", "content", canonical);
 
   // Twitter / X
-  setMeta("twitter-title",       "content", fullTitle);
+  setMeta("twitter-title", "content", fullTitle);
   setMeta("twitter-description", "content", desc);
 }
 

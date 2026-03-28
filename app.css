@@ -20,6 +20,7 @@ body {
   background-color: #fbf9f4;
   color: #1b1c19;
   font-family: 'Manrope', sans-serif;
+  font-size: 17px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -148,4 +149,55 @@ html {
   gap: 1rem;
   padding: 2rem;
   text-align: center;
+}
+
+/* ── Dark mode (auto device sync) ── */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1c1c1a !important;
+    color: #e3e3dd !important;
+  }
+
+  .glass-header {
+    background: rgba(28, 28, 26, 0.90) !important;
+  }
+
+  /* Surface backgrounds */
+  .bg-surface, .bg-background           { background-color: #1c1c1a !important; }
+  .bg-surface-container-lowest          { background-color: #141412 !important; }
+  .bg-surface-container-low             { background-color: #242421 !important; }
+  .bg-surface-container                 { background-color: #282826 !important; }
+  .bg-surface-container-high            { background-color: #2e2e2b !important; }
+  .bg-surface-container-highest         { background-color: #333330 !important; }
+
+  /* Text */
+  .text-primary                         { color: #b0cadd !important; }
+  .text-on-surface                      { color: #e3e3dd !important; }
+  .text-on-background                   { color: #e3e3dd !important; }
+  .text-on-surface-variant              { color: #c2c7cc !important; }
+  .text-outline                         { color: #8c9198 !important; }
+  .text-secondary                       { color: #d4c65c !important; }
+  .text-on-secondary-container          { color: #f7e382 !important; }
+
+  /* Secondary container (Easter card) */
+  .bg-secondary-container               { background-color: #3a3400 !important; }
+
+  /* Drawer */
+  #drawer                               { background-color: #242421 !important; }
+
+  /* Chips */
+  .chip                                 { background: #333330 !important; color: #c2c7cc !important; }
+  .chip.active                          { background: #4a4100 !important; color: #f7e382 !important; }
+  .chip.tertiary                        { background: #4d3f62 !important; color: #d1bfe9 !important; }
+
+  /* Scripture block */
+  .scripture-block                      { border-color: #d4c65c !important; }
+
+  /* Skeleton loader */
+  .skeleton {
+    background: linear-gradient(90deg, #242421 25%, #333330 50%, #242421 75%) !important;
+  }
+
+  /* Progress bar track */
+  .bg-outline-variant\/20               { background-color: rgba(66, 71, 76, 0.3) !important; }
 }
