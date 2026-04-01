@@ -604,23 +604,26 @@ function renderSection(sec) {
     case "scripture":
       return /* html */ `
         <div class="px-5 py-8 bg-surface-container-low border-b border-outline-variant/10">
-          <div class="flex items-center gap-2 mb-4">
+          <div class="flex flex-wrap items-center gap-2 mb-4">
             <span class="material-symbols-outlined icon-sm text-secondary">menu_book</span>
             <p class="font-body text-xs uppercase tracking-widest text-secondary font-semibold">${sec.title}</p>
-          </div>
-          <div class="flex flex-wrap items-center gap-2 mb-4">
             <span class="chip">${sec.reference}</span>
-            ${sec.ntRef ? `<span class="chip tertiary">v. ${sec.ntRef}</span>` : ""}
           </div>
           <div class="scripture-block mt-4">
             <p class="font-headline text-base text-on-surface leading-[1.8] whitespace-pre-line">${sec.content}</p>
           </div>
-          ${sec.ntRefText ? `
+          ${
+            sec.ntRefText
+              ? `
           <div class="mt-5 pt-4 border-t border-outline-variant/20">
-            <p class="font-body text-xs uppercase tracking-widest text-secondary font-semibold mb-2">Împlinit în Noul Testament</p>
+            <div class="flex flex-wrap items-center gap-2 mb-2">
+              <p class="font-body text-xs uppercase tracking-widest text-secondary font-semibold">Împlinit în Noul Testament</p>
+              <span class="chip tertiary">${sec.ntRef}</span>
+            </div>
             <p class="font-headline italic text-sm text-on-surface-variant leading-relaxed">&ldquo;${sec.ntRefText}&rdquo;</p>
-            <cite class="font-body text-xs text-outline not-italic mt-1 block">— ${sec.ntRef}</cite>
-          </div>` : ""}
+          </div>`
+              : ""
+          }
         </div>`;
 
     case "reflection":
@@ -753,7 +756,7 @@ function renderAbout() {
             <p class="font-body text-xs uppercase tracking-widest text-outline mb-1">Organizat de</p>
             <p class="font-headline text-xl text-primary mb-1">Biserica Unu Unu</p>
             <p class="font-body text-sm text-on-surface-variant leading-relaxed mb-3">
-              O comunitate de credință din România, dedicată predicii expozitive și uceniciei biblice.
+              O comunitate de credincioși din Cluj-Napoca, România, pasionată de a trăi și împărtăși Evanghelia.
             </p>
             <a href="http://unu-unu.ro/" target="_blank" rel="noopener"
                class="inline-flex items-center gap-2 font-body text-xs font-semibold uppercase tracking-widest text-secondary active:opacity-70">
